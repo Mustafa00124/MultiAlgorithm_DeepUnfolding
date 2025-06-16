@@ -1,0 +1,61 @@
+\begin{table*}[t]
+\centering
+\caption{F1 scores across all CDNet2014 categories}
+\begin{tabular}{llcccccc}
+\toprule
+Category & Video & SVT & DFT & Median & Serial & Ensemble & MADU \\
+\midrule
+\multirow{4}{*}{Bad Weather} & blizzard & 0.55 & 0.81 & 0.85 & 0.69 & 0.13 & 0.83 \\
+ & skating & 0.68 & 0.64 & 0.81 & 0.75 & 0.31 & 0.94 \\
+ & snowFall & 0.27 & 0.13 & 0.13 & 0.24 & 0.00 & 0.38 \\
+ & wetSnow & 0.53 & 0.61 & 0.64 & 0.54 & 0.11 & 0.57 \\
+\midrule
+\multirow{4}{*}{Baseline} & PETS2006 & 0.83 & 0.75 & 0.75 & 0.77 & 0.83 & 0.73 \\
+ & highway & 0.93 & 0.94 & 0.94 & 0.94 & 0.95 & 0.95 \\
+ & office & 0.76 & 0.67 & 0.70 & 0.64 & 0.79 & 0.78 \\
+ & pedestrians & 0.88 & 0.92 & 0.93 & 0.92 & 0.89 & 0.93 \\
+\midrule
+\multirow{4}{*}{Camera Jitter} & badminton & 0.66 & 0.70 & 0.70 & 0.61 & 0.70 & 0.74 \\
+ & boulevard & 0.75 & 0.62 & 0.59 & 0.70 & 0.77 & 0.75 \\
+ & sidewalk & 0.58 & 0.58 & 0.56 & 0.58 & 0.66 & 0.65 \\
+ & traffic & 0.80 & 0.88 & 0.86 & 0.89 & 0.86 & 0.88 \\
+\midrule
+\multirow{4}{*}{Dynamic Background} & canoe & 0.69 & 0.64 & 0.61 & 0.91 & 0.33 & 0.74 \\
+ & fall & 0.69 & 0.63 & 0.73 & 0.75 & 0.84 & 0.79 \\
+ & fountain02 & 0.30 & 0.71 & 0.50 & 0.89 & 0.51 & 0.71 \\
+ & overpass & 0.51 & 0.36 & 0.37 & 0.50 & 0.46 & 0.61 \\
+\midrule
+\multirow{3}{*}{Low Framerate} & tramCrossroad & 0.53 & 0.63 & 0.70 & 0.66 & 0.44 & 0.72 \\
+ & tunnelExit & 0.48 & 0.38 & 0.51 & 0.55 & 0.21 & 0.47 \\
+ & turnpike & 0.86 & 0.72 & 0.92 & 0.87 & 0.72 & 0.92 \\
+\midrule
+\multirow{6}{*}{Night Videos} & bridgeEntry & 0.12 & 0.26 & 0.47 & 0.19 & 0.06 & 0.27 \\
+ & busyBoulvard & 0.45 & 0.29 & 0.52 & 0.39 & 0.19 & 0.53 \\
+ & fluidHighway & 0.45 & 0.30 & 0.42 & 0.39 & 0.39 & 0.39 \\
+ & streetCornerAtNight & 0.58 & 0.19 & 0.51 & 0.45 & 0.35 & 0.54 \\
+ & tramStation & 0.75 & 0.73 & 0.80 & 0.73 & 0.46 & 0.80 \\
+ & winterStreet & 0.47 & 0.43 & 0.60 & 0.53 & 0.45 & 0.53 \\
+\midrule
+\multirow{6}{*}{Shadow} & backdoor & 0.64 & 0.91 & 0.90 & 0.88 & 0.89 & 0.92 \\
+ & bungalows & 0.78 & 0.86 & 0.86 & 0.86 & 0.68 & 0.85 \\
+ & busStation & 0.75 & 0.71 & 0.72 & 0.72 & 0.78 & 0.74 \\
+ & copyMachine & 0.91 & 0.62 & 0.62 & 0.68 & 0.92 & 0.92 \\
+ & cubicle & 0.87 & 0.79 & 0.78 & 0.80 & 0.87 & 0.86 \\
+ & peopleInShade & 0.55 & 0.54 & 0.51 & 0.64 & 0.72 & 0.68 \\
+\midrule
+\multirow{5}{*}{Thermal} & corridor & 0.93 & 0.77 & 0.78 & 0.82 & 0.93 & 0.91 \\
+ & diningRoom & 0.87 & 0.85 & 0.86 & 0.87 & 0.86 & 0.88 \\
+ & lakeSide & 0.65 & 0.52 & 0.57 & 0.63 & 0.64 & 0.61 \\
+ & library & 0.97 & 0.74 & 0.75 & 0.96 & 0.98 & 0.97 \\
+ & park & 0.84 & 0.82 & 0.83 & 0.85 & 0.81 & 0.80 \\
+\midrule
+\multirow{4}{*}{Turbulence} & turbulence0 & 0.68 & 0.77 & 0.78 & 0.50 & 0.47 & 0.82 \\
+ & turbulence1 & 0.51 & 0.64 & 0.68 & 0.56 & 0.68 & 0.68 \\
+ & turbulence2 & 0.19 & 0.19 & 0.37 & 0.00 & 0.14 & 0.63 \\
+ & turbulence3 & 0.59 & 0.72 & 0.67 & 0.66 & 0.25 & 0.76 \\
+\midrule
+\textbf{Average} & & 0.65 & 0.62 & 0.67 & 0.66 & 0.58 & \textbf{0.73} \\
+\bottomrule
+\label{tab:all_f1}
+\end{tabular}
+\end{table*}
